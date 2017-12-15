@@ -6,6 +6,8 @@ import Home from './Home/Home';
 import './App.css';
 import NotFound from './NotFound';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+
+
 class App extends Component {
   render() {
     return (
