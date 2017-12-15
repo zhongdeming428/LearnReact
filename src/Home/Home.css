@@ -1,0 +1,17 @@
+.Home {
+    height: 47.8rem;
+    width: 100%;
+    /* background-color: yellow; */
+    background: url('../assets/1513322825599.jpg');
+    background-size: cover;
+}
+
+.Home-detail {
+    color: white;
+    font-size: 3rem;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    padding: 2rem;
+}
