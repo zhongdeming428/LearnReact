@@ -6,7 +6,7 @@
 }
 
 .Introduce-display {
-    width: 80%;
+    width: 70%;
     min-height: 26rem;
     background-color: white;
     box-shadow: 0px 0px 5px #c3c3c3;
@@ -24,4 +24,37 @@
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.Introduce-display>h1 {
+    margin-top: 2rem;
+}
+
+.Introduce-display>h1:nth-child(1) {
+    margin-top: 0;
+}
+
+.Introduce-display>p {
+    margin: 1rem;
+}
+
+.Introduce-display>p>code {
+    display: block;
+    width: 90%;
+    background-color: black;
+    color: white;
+    margin-left: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+}
+
+.Introduce-display>ul {
+    display: block;
+    margin-left: 2rem;
+    width: 60%;
+}
+
+.Introduce-display>ul>li {
+    display: block;
+    margin: 1rem;
 }
