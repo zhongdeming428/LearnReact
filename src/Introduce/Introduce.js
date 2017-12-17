@@ -18,7 +18,6 @@ class Introduce extends React.Component {
             let converter = new showdown.Converter();
             let text = response;
             let html = converter.makeHtml(text);
-            // console.log(html);
             divDom.innerHTML = html;
         });
     }

@@ -2,57 +2,57 @@ const arr = [
     {
         to:'/detail/',
         text:'前 言',
-        file:'./前言.md'
+        file:'/MDFiles/前言.md'
     },
     {
         to:'/detail/1',
         text:'Router',
-        file:'./Router.md'
+        file:'/MDFiles/Router.md'
     },
     {
         to:'/detail/2',
         text:'Route',
-        file:'./Route.md'
+        file:'/MDFiles/Route.md'
     },
     {
         to:'/detail/3',
         text:'Link',
-        file:'./Link.md'
+        file:'/MDFiles/Link.md'
     },
     {
         to:'/detail/4',
         text:'Switch',
-        file:'./Switch.md'
+        file:'/MDFiles/Switch.md'
     },
     {
         to:'/detail/5',
         text:'Redirect',
-        file:'./Redirect.md'
+        file:'/MDFiles/Redirect.md'
     },
     {
         to:'/detail/6',
         text:'新的钩子函数',
-        file:'./新的钩子函数.md'
+        file:'/MDFiles/新的钩子函数.md'
     },
     {
         to:'/detail/7',
         text:'Prompt',
-        file:'./Prompt.md'
+        file:'/MDFiles/Prompt.md'
     },
     {
         to:'/detail/8',
         text:'No Match',
-        file:'./NoMatch.md'
+        file:'/MDFiles/NoMatch.md'
     },
     {
         to:'/detail/9',
         text:'过渡动画',
-        file:'./过渡动画.md'
+        file:'/MDFiles/过渡动画.md'
     },
     {
         to:'/detail/10',
         text:'编程式导航',
-        file:'./编程式导航.md'
+        file:'/MDFiles/编程式导航.md'
     }
 ];
 
