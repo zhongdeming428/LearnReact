@@ -24,20 +24,34 @@
 .DetailDisplay>p>code {
     display: block;
     width: 90%;
-    background-color: black;
+    background-color: rgb(126, 126, 226);
     color: white;
-    margin-left: 2rem;
+    margin:2rem 2rem;
     padding: 0.5rem;
     border-radius: 0.8rem;
 }
 
 .DetailDisplay>ul {
     display: block;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
+    position: relative;
+    left: 50%;
+    transform: translateX(-60%);
+    margin: 3rem;
     width: 60%;
 }
 
 .DetailDisplay>ul>li {
     display: block;
     margin: 1rem;
+}
+
+.DetailDisplay>blockquote {
+    position: relative;
+    margin: 2rem 0;
+    left: 10%;
+    width: 80%;
+    border-left: 5px solid rgb(126, 126, 226);
+    display: block;
+    padding-left: 1rem;
 }
