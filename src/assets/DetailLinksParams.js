@@ -21,36 +21,21 @@ const arr = [
     },
     {
         to:'/detail/4',
-        text:'Switch',
-        file:'/MDFiles/Switch.md'
-    },
-    {
-        to:'/detail/5',
-        text:'Redirect',
-        file:'/MDFiles/Redirect.md'
-    },
-    {
-        to:'/detail/6',
-        text:'新的钩子函数',
-        file:'/MDFiles/新的钩子函数.md'
-    },
-    {
-        to:'/detail/7',
         text:'Prompt',
         file:'/MDFiles/Prompt.md'
     },
     {
-        to:'/detail/8',
+        to:'/detail/5',
         text:'No Match',
         file:'/MDFiles/NoMatch.md'
     },
     {
-        to:'/detail/9',
+        to:'/detail/6',
         text:'过渡动画',
         file:'/MDFiles/过渡动画.md'
     },
     {
-        to:'/detail/10',
+        to:'/detail/7',
         text:'编程式导航',
         file:'/MDFiles/编程式导航.md'
     }

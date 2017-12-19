@@ -17,17 +17,24 @@
     margin-top: 0;
 }
 
+.DetailDisplay>h2 {
+    margin-left: 1rem;
+}
+
+
 .DetailDisplay>p {
     margin: 1rem;
 }
 
-.DetailDisplay>p>code {
+.DetailDisplay code {
+    overflow: auto;
     display: block;
     width: 90%;
     background-color: rgb(126, 126, 226);
     color: white;
     margin:2rem 2rem;
-    padding: 0.5rem;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
     border-radius: 0.8rem;
 }
 
