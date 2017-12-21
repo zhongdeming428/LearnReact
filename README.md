@@ -31,6 +31,8 @@ some useful repos :
 Demo:
 ------
 
-[React-Router-Demo](http://www.zhongdeming.cn/react-router-demo/)
+[React-Router-Demo on my individual web server](http://www.zhongdeming.cn/react-router-demo/)
 
 I did not configure the web server, so that you may get 404 Not Found when you refreshed the website.
+
+[React-Router-Demo on GitHub Page](https://zhongdeming428.github.io/react-router-demo/)
