@@ -37,5 +37,5 @@ Router
 这是比较容易犯的错误，因为在V3.x中这样写是没有问题的，需要多加注意。
 
 
-[上一节](/detail/)
-[下一节](/detail/2)
+[上一节](/react-router-demo/detail/)
+[下一节](/react-router-demo/detail/2)

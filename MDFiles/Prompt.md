@@ -19,5 +19,5 @@ message是弹出确认框的文本信息。
 
 只有在跳转时才会判断when属性，即点击Link跳转是prompt展示确认框的必要不充分条件。
 
-[上一节](/detail/3)
-[下一节](/detail/5)
+[上一节](/react-router-demo/detail/3)
+[下一节](/react-router-demo/detail/5)

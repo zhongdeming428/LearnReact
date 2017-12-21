@@ -113,5 +113,5 @@ V3.x中拥有一系列on*钩子函数，比如onEnter、onUpdate、onLeave等，
 
 重定向组件，有一个必填属性to，表示要重定向到的路由。
 
-[上一节](/detail/1)
-[下一节](/detail/3)
+[上一节](/react-router-demo/detail/1)
+[下一节](/react-router-demo/detail/3)
