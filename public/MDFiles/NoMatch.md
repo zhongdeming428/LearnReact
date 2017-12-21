@@ -18,5 +18,5 @@ No Match
 
 这里使用了一个重定向组件，其实是没有必要的,不过也是一种实现的方法。
 
-[上一节](/detail/4)
-[下一节](/detail/6)
+[上一节](/react-router-demo/detail/4)
+[下一节](/react-router-demo/detail/6)
