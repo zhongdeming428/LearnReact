@@ -32,3 +32,5 @@ Demo:
 ------
 
 [React-Router-Demo](http://www.zhongdeming.cn/react-router-demo/)
+
+I did not configure the web server, so that you may get 404 Not Found when you refreshed the website.
