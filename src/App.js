@@ -6,6 +6,7 @@ import Detail from './Detail/Detail';
 import './App.css';
 import NotFound from './NotFound';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import Contact from './Contact/Contact';
 
 class App extends React.Component {
   render() {
@@ -21,6 +22,7 @@ class App extends React.Component {
               <Route path="/" exact component={Home}/>
               <Route path="/introduce" exact component={Introduce}/>
               <Route path="/detail"  component={Detail}/>
+              <Route path="/contact" component={Contact}/>
               <Route path="/404" component={NotFound}/>
               <Route render={()=>(<Redirect to="/404"/>)}/>
             </Switch>

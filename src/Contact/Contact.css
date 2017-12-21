@@ -1,0 +1,32 @@
+.contact {
+    width:100%;
+    background-color: aliceblue;
+    min-height:27rem;
+    padding-top: 6rem;
+}
+
+.contact-panel {
+    width: 60%;
+    position: relative;
+    left: 20%;
+    background-color: white;
+    box-shadow: 0px 0px 10px #c3c3c3;
+    min-height: 20rem;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 3rem;
+}
+
+.contact-panel>ul {
+    display: block;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.contact-panel>ul>li {
+    display: block;
+    margin: 1rem 0;
+}
