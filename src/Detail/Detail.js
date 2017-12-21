@@ -5,7 +5,6 @@ import DetailLinks from '../DetailLinks/DetailLinks';
 import NoMatch from '../NotFound';
 import DetailDisplay from '../DetailDisplay/DetailDisplay';
 
-
 class Detail extends React.Component {
     render(){
         return <div className="Detail">

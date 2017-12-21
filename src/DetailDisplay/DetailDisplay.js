@@ -8,6 +8,7 @@ class DetailDisplay extends React.Component {
     constructor({match}){
         super();
         this.param = match.params.param;
+        this.state = {in:false};
         this.renderMD = this.renderMD.bind(this);
         this.renderMD(this.param);
     }
@@ -36,8 +37,8 @@ class DetailDisplay extends React.Component {
     }
     render(){
         return <div className="DetailDisplay">
-            
-        </div>
+                <h1>Loading...</h1>
+            </div>;
     }
 }
 

@@ -1,0 +1,29 @@
+.fade-enter {
+    animation: enter 1s;
+}
+
+.fade-exit {
+    animation: out 1s;
+}
+
+@keyframes enter {
+    from{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes out {
+    from{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+}
