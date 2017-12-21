@@ -8,13 +8,13 @@ import DetailDisplay from '../DetailDisplay/DetailDisplay';
 class Detail extends React.Component {
     render(){
         return <div className="Detail">
-            <BrowserRouter>
+            <BrowserRouter basename="/react-router-demo">
                 <div className="Detail-display">
                     <DetailLinks />
                     <div className="display">
                         <Switch>
                             <Route path="/detail" exact component={DetailDisplay} />
-                            <Route path="/detail/:param" exact component={DetailDisplay} />
+                            <Route path="/detail/:param" component={DetailDisplay} />
                             <Route component={NoMatch} />
                         </Switch>
                     </div>

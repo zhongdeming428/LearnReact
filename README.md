@@ -27,3 +27,8 @@ some useful repos :
 
 * [showdown](https://github.com/showdownjs/showdown) ---> turns the markdown file to html file easily
 * [fdaciuk/ajax](https://github.com/fdaciuk/ajax) --- pure ajax module, easy to use 
+
+Demo:
+------
+
+[React-Router-Demo](http://www.zhongdeming.cn/react-router-demo/)

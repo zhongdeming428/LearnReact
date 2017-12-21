@@ -5,7 +5,7 @@ import Home from './Home/Home';
 import Detail from './Detail/Detail';
 import './App.css';
 import NotFound from './NotFound';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Contact from './Contact/Contact';
 
 class App extends React.Component {
@@ -15,7 +15,7 @@ class App extends React.Component {
         <div className="App-header">
           <h1 className="App-title">React Router V4.0 Demo</h1>
         </div>
-        <BrowserRouter>
+        <BrowserRouter basename='/react-router-demo'>
           <div>
             <Links/>
             <Switch>

@@ -16,7 +16,7 @@ class Contact extends React.Component {
             headers:{
                 'content-type':'text/plain'
             },
-            url:'/MDFiles/contact.md',
+            url:'./MDFiles/contact.md',
             method:'get'
         });
         res.then(response => {
